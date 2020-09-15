@@ -1,0 +1,4 @@
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.csprojAssemblyReference.cache
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.AssemblyInfoInputs.cache
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.AssemblyInfo.cs
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.csproj.CoreCompileInputs.cache
