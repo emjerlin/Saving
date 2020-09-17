@@ -8,13 +8,35 @@ namespace Saving
     {
         static void Main(string[] args)
         {
+            XmlSerializer zombieSerializer = new XmlSerializer(typeof(Zombie));
+           Console.WriteLine("Do you want to load the last saved zombie, or create a new one? (saved/new)");
+           string load = Console.ReadLine();
+           if (load == "saved"){
+
+               Zombie z1;
+               using (FileStream file = File.Open(@"zombie.xml",FileMode.OpenOrCreate))
+               {
+                   z1 = (Zombie) zombieSerializer.Deserialize(file);
+               }
+               string hatwrite = "";
+               if (z1.hat == false)
+               {
+                   hatwrite = "not ";
+               }
+
+               Console.WriteLine("The zombies hp is " + z1.x + ". It does " + z1.y + " dmg. It does " + hatwrite + "wear a hat" );
+               Console.ReadLine();
+           }
+           if (load =="new"){
+           
             Zombie z1 = new Zombie();
 
             int lyckad1 = 0;
             
             int ohp = 0;
 
-            while (lyckad1!=1){
+            while (lyckad1!=1)
+            {
             Console.WriteLine("How much hp do you want the zombie to have?");
 
             string ihp = Console.ReadLine();
@@ -24,6 +46,7 @@ namespace Saving
             if (lyckad){
                 lyckad1++;
             }
+
             }
             z1.x = ohp;
 
@@ -46,7 +69,7 @@ namespace Saving
             }
             z1.y = odmg;
 
-             //------------------------
+              //------------------------
 
             string hat;
             
@@ -66,14 +89,16 @@ namespace Saving
                 lyckad3++;
             }
              }
-
-             XmlSerializer zombieSerializer = new XmlSerializer(typeof(Zombie));
+               //------------------------
+             
              
              FileStream file = File.Open(@"zombie.xml", FileMode.OpenOrCreate);
 
              zombieSerializer.Serialize(file,z1);
-
-
+             file.Close();
+             }
+  
+            
         }
     }
 }
