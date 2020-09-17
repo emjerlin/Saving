@@ -2,3 +2,12 @@ C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3
 C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.AssemblyInfoInputs.cache
 C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.AssemblyInfo.cs
 C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.csproj.CoreCompileInputs.cache
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\bin\Debug\netcoreapp3.1\Saving.exe
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\bin\Debug\netcoreapp3.1\Saving.deps.json
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\bin\Debug\netcoreapp3.1\Saving.runtimeconfig.json
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\bin\Debug\netcoreapp3.1\Saving.runtimeconfig.dev.json
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\bin\Debug\netcoreapp3.1\Saving.dll
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\bin\Debug\netcoreapp3.1\Saving.pdb
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.dll
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.pdb
+C:\Users\emma.jerlin\Documents\Programmering\Saving\Saving\obj\Debug\netcoreapp3.1\Saving.genruntimeconfig.cache

@@ -44,7 +44,7 @@ namespace Saving
                 lyckad2++;
             }
             }
-            z1.x = odmg;
+            z1.y = odmg;
 
              //------------------------
 
@@ -66,6 +66,12 @@ namespace Saving
                 lyckad3++;
             }
              }
+
+             XmlSerializer zombieSerializer = new XmlSerializer(typeof(Zombie));
+             
+             FileStream file = File.Open(@"zombie.xml", FileMode.OpenOrCreate);
+
+             zombieSerializer.Serialize(file,z1);
 
 
         }
